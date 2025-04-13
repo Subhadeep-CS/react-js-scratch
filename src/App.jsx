@@ -1,21 +1,19 @@
 import "./App.css";
-import DemoComponent from "./component/DemoComponent";
 import Layout from "./Layout";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <>
-      <Layout name="poulami and rituparna">
-        <div>My name is subhadeep</div>
-        <div>My name is subhadeep</div>
-        <div>My name is subhadeep</div>
-        <div>My name is subhadeep</div>
-        <div>My name is subhadeep</div>
-        <div>My name is subhadeep</div>
-        <div>My name is subhadeep</div>
-        <div>My name is subhadeep</div>
-        <div>My name is subhadeep</div>
-        <div>My name is subhadeep</div>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </Layout>
       {/* <DemoComponent name={"subhadeep"} age={20}>
         <div>I am a bad body</div>

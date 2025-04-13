@@ -1,0 +1,48 @@
+Hooks=> Some special type of function provided by react to perform some specific task
+
+1. useState()  
+
+=> control render and re-render
+
+State special kind variable in react that provided by react itself
+
+Syntax
+
+return
+
+Array=> length 2
+
+1. variable name
+
+2. function=> setState function
+
+1. argument => new state value / callback function=> access of prevState
+2. new state value;
+
+//stale state problem
+    // Non functional update
+    // setA(a + 2);
+    // setA(a - 1);
+    // setA(a + 1);
+    // setA(a / 1);
+    // setA(a + 1);
+    // setA(a * 2);
+    // functional update
+    setA((prevA) => prevA + 1);
+    setA((prevA) => prevA + 1);
+    setA(a + 1);
+    setA(a + 1);
+    setA(a + 1);
+
+    When to use functional => Multiple same state update logic // calculation with prevState
+
+    When to use Non functional => Single state update logic
+
+
+2. useEffect() => 
+
+1. sideeffect function => callback function
+
+2. Dependency array => empty => 
+
+1. API call

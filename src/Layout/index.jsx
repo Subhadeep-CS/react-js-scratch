@@ -11,12 +11,10 @@
  */
 import Header from "../common/Header";
 import Footer from "../common/Footer";
-const Layout = ({ name, children }) => {
-  console.log(children);
+const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      {name}
       {children}
       <Footer />
     </>

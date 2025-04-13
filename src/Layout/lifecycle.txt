@@ -1,0 +1,29 @@
+Lifecycle Method
+
+1. Mounting/Rendering 2. Updating Phase 3. Umounting phase
+
+
+import React from "react";
+import { useState } from "react";
+
+const Home = () => {
+  const [a, setA] = useState(2);
+
+  const handleClick = () => {
+    setA(a + 1);
+    console.log(a);
+  };
+  return <div onClick={() => handleClick()}>Home {a}</div>;
+};
+
+export default Home;
+
+Mounting=>
+
+1. State initialize,function initialize => a=2 
+
+2. render jsx
+
+1. API call => After render
+
+1. Counter => + - * / => switch-case

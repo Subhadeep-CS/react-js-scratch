@@ -1,0 +1,32 @@
+Routing=>
+
+1. react-router-dom
+
+install npm i -D react-router-dom
+
+version=> 5
+
+1. BrowserRouter
+2. HashRouter
+
+1. After installing we have to provide the routing in our whole application
+
+1. BrowserRouter => react-router-dom component
+
+flipkart.com/mobiles => server /mobiles
+
+2. HashRouter => 
+
+flipkart.com/#/mobiles
+
+Routes,Route
+
+<Routes/> for grouping the router
+
+<Route/> 
+
+2. main props => path="/" path="/about" element={}
+
+3. How to Link the route
+
+Link to
