@@ -41,8 +41,35 @@ Array=> length 2
 
 2. useEffect() => 
 
+useEffect(()=>{
+
+},[])
+
 1. sideeffect function => callback function
 
-2. Dependency array => empty => 
+2. Dependency array => 
 
-1. API call
+empty =>  call once (after first render cycle);
+
+
+1. API call => 
+
+CSR(client side rendering) => 
+
+
+1. Pure javascript => fetch
+
+2. NPM Package => axios
+
+3. Lib => rtk query, react query
+
+.env =>
+
+1. create a .env folder inside the root
+
+2. dotenv
+
+1. ES modules => import.meta.env.VARIABLE_NAME
+2. Without es modules=> process.env.VARIABLE_NAME
+
+//https://dummyjson.com/docs/products

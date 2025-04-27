@@ -22,10 +22,11 @@ const Home = () => {
   };
 
   useEffect(() => {
-    if (a !== 2) {
-      console.log("abc");
+    if (a != 2) {
+      console.log(a);
     }
   }, [a]);
+
   return <div onClick={() => handleClick()}>Home {a}</div>;
 };
 
