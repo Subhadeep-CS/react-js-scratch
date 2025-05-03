@@ -13,6 +13,9 @@ const Header = () => {
         <li>
           <Link to="/contact">Contact</Link>
         </li>
+        <li>
+          <Link to="/input-understanding">Input</Link>
+        </li>
       </ul>
     </div>
   );
