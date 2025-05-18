@@ -73,3 +73,6 @@ CSR(client side rendering) =>
 2. Without es modules=> process.env.VARIABLE_NAME
 
 //https://dummyjson.com/docs/products
+
+
+useRef();

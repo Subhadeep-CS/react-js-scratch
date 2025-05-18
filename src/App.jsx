@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import InputUndestanding from "./pages/InputUnderstanding";
+import RefComponent from "./pages/RefComponent";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/input-understanding" element={<InputUndestanding />} />
+          <Route path="/ref" element={<RefComponent />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
